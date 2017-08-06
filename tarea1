@@ -1,0 +1,13 @@
+Los diferentes tipos de líneas
+El argumento lty se puede utilizar para especificar el tipo de línea. 
+Para cambiar el ancho de línea, se puede usar el argumento lwd.
+
+El tipo de línea (lty) se puede especificar usando el texto (“blank”, “solid”, “dashed”, “dotted”, “dotdash”, “longdash”, “twodash") 
+o número (0, 1, 2, 3 , 4, 5, 6).
+Tenga en cuenta que lty = “blank” es identico a lty = 0
+“solid” = 1
+“dashed” = 2
+“dotted” = 3
+“dotdash” = 4
+“longdash” = 5
+“twodash" = 6

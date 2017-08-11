@@ -1,0 +1,28 @@
+                           #### TAREA 2 ####
+## 1) Crear una matriz con la funcion dim() de 4 columnas y 5 renglones
+# esta matriz esta basada en un vector que contiene estos datos: 
+# el nombre de los renglones es el siguiente (toluca, pachuca, gdl, mty)
+# el nombre de las columnas es (escuela1, escuela2, escuela3, escuela4, escuela5)
+# Incorporar el nombre a los renglones y columnas de la matriz, 
+# identificar el dato de la escuela 3 de toluca, de la escuela 5 de gdl y la escuela 1 de pachuca
+## 2) Crear con la funcion matrix una matriz de 6 renglones y 3 columnas....
+#  y preguntar por el dato de la matriz en el renglon 3 y columna 3
+
+
+#1 
+mtrx1 <- 1:20
+View(mtrx1)
+dim(mtrx1) <- c(5, 4)
+rownames(mtrx1) <- c ("Escuela1","Escuela2","Escuela3","Escuela4","Escuela5")
+colnames(mtrx1) <- c ("Toluca","Pachuca","Guadalajara","Monterrey")
+View(mtrx1)
+mtrx1["Escuela3","Toluca"]
+mtrx1["Escuela5","Guadalajara"]
+mtrx1["Escuela1","Pachuca"]
+
+#2
+mtrx2 <- matrix(sample(2:250, 18), nrow=6, ncol=3)
+View(mtrx2)
+mtrx2[3,3]
+mtrx2[3,]
+mtrx2[,3]

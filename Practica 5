@@ -1,5 +1,5 @@
 require (foreign)
-mti2015 <- read.dbf ("C://Users//walmart santin//Documents//Actuaría//mti2015_05_17_sdem_precodificado.DBF") 
+mti2015 <- read.dbf ("C://Users//S//Documents//Actuaría//mti2015_05_17_sdem_precodificado.DBF") 
 table (mti2015$SEX)
 install.packages("questionr")
 require (questionr)

@@ -1,0 +1,10 @@
+### Diagrama de dispersión ###
+# X = edad de trabajadores
+### Y = salario
+Y <- c(23,20,24)
+tabla (x)
+X <- c(8500,9000,7500)
+tabla (y)
+(X, Y, xlab= "salario", ylab = "edad de los trabajadores",
+xlim = c(7500, 9000)
+ylim = (0, 24), sub = "relación entre edad y salario")

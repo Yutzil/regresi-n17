@@ -1,0 +1,14 @@
+### Tarea De Regresión, Calcular las Betas ### **tarea3**
+x <- c (59, 63, 68, 72, 74, 78, 83)
+y <- c (118, 182, 247, 208, 197, 135, 132)
+mx <- mean (x) # Media de x
+mi <- mean (y) # Media de y
+desvx <- sd (x) # Desviación estándar de x
+desvy <- sd (y) # Desviación estándar de y
+corre <- cor (y, x) # Correlación y, x
+# **** Calculamos las betas
+beta1 = corre * (desvy / desvx)
+beta0 = mi - (beta1 * mx)
+
+help (sd)
+help ("cor")
